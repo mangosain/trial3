@@ -335,6 +335,37 @@
     </footer>
 </div>
 
+<div class="contact-us container m-5" style="position: fixed; transition: 0.8s all ease; top: 50%; left: 50%; transform: translate(80%, -50%); background-color: white;">
+    <div class="row border p-3">
+        <div class="col-md-5 p-3" style="background-image: url('./img/annie-spratt-WBpr_yH0Frg-unsplash.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+            <div class="container py-5" style="background-color: rgba(255, 255, 255, 0.8)">
+                <div class="d-flex align-items-center p-2 my-4">
+                    <i class="fa fa-home"></i><p class="my-auto mx-2">123, Street Name, City Name, State Name, Country Name - 123456</p>
+                </div>
+                <div class="d-flex align-items-center p-2 my-4">
+                    <i class="fa fa-phone"></i><p class="my-auto mx-2">+91 1234567890</p>
+                </div>
+                <div class="d-flex align-items-center p-2 my-4">
+                    <i class="fa fa-envelope"></i><p class="my-auto mx-2">dummy-mail@gmail.com</p>
+                </div>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-md-7 p-sm-5 my-auto">
+            <h2>Let us know what you think!</h2>
+            <div class="d-flex flex-column">
+                <input type="text" class="form-control my-2" placeholder="Name" name="name">
+                <input type="text" class="form-control my-2" placeholder="Email" name="mail">
+                <textarea class="form-control my-2" name="message" id="message" rows="5" placeholder="Message"></textarea>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+    <i class="fa fa-xmark" style="position: absolute; bottom: 5px; right: 5px; border: none; color: #807c7c; cursor: pointer;" onclick="document.querySelector('.contact-us').style.transform = 'translate(80%, -50%)';"></i>
+</div>
+
+<button class="toggler" onclick="document.querySelector('.contact-us').style.transform = 'translate(-50%, -50%)';"><i class="fa-regular fa-comment"></i>&nbsp; Contact Us</button>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
