@@ -361,10 +361,10 @@
             </div>
         </div>
     </div>
-    <i class="fa fa-xmark" style="position: absolute; bottom: 5px; right: 5px; border: none; color: #807c7c; cursor: pointer;" onclick="document.querySelector('.contact-us').style.transform = 'translate(80%, -50%)';"></i>
+    <i class="fa fa-xmark" style="position: absolute; bottom: 5px; right: 5px; border: none; color: #807c7c; cursor: pointer;" onclick="document.querySelector('.contact-us').style.transform = 'translate(80%, -50%)'; document.querySelector('.toggler').style.display = 'block';"></i>
 </div>
 
-<button class="toggler" onclick="document.querySelector('.contact-us').style.transform = 'translate(-50%, -50%)';"><i class="fa-regular fa-comment"></i>&nbsp; Contact Us</button>
+<button class="toggler" onclick="document.querySelector('.contact-us').style.transform = 'translate(-50%, -50%)'; document.querySelector('.toggler').style.display = 'none';"><i class="fa-regular fa-comment"></i>&nbsp; Contact Us</button>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
